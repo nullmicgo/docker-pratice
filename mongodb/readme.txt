@@ -1,0 +1,1 @@
+after setup, we could use mongo db command to check the mongodb collection
