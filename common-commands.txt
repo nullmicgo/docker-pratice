@@ -1,0 +1,8 @@
+#build image 
+docker build -t mongotest .
+
+#run docker with port
+docker run -p 27017:27017 -p 28017:28017 mongotest
+
+
+
