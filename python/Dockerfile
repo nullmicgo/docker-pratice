@@ -5,6 +5,8 @@ FROM ubuntu:latest
 
 RUN apt-get update -y
 # another style foe execute the run  command
+# General term for dockerfile instruction is 'Exec form'
+# the following one is 'Shell Form'
 # RUN ["apt-get","update","-y"]
 
 RUN apt-get install -y python3

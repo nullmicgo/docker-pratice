@@ -2,11 +2,8 @@ docker build -t temp .
 
 docker run temp
 
-
-
 # check the app directory at the top
 docker run temp ls -l /
-
 
 # check the whoami.txt is also owned by michael user
 docker run temp ls -l /app
