@@ -1,5 +1,5 @@
-#Base Image
-From ubuntu:latest
+# Base Image
+FROM ubuntu:latest
 
 # Commands to run to install dependencies
 RUN apt-get update -y
@@ -16,7 +16,7 @@ WORKDIR /app
 
 # Copy apps from the local folder to the Docker container
 COPY app.py app.py
-#COPY alternate.py alternate.py
+COPY alternate.py alternate.py
 
-#Make port available
+# Make port available
 EXPOSE 8080
