@@ -2,7 +2,11 @@
 FROM ubuntu:latest
 
 # Commands to run to install dependencies
+
 RUN apt-get update -y
+# another style foe execute the run  command
+# RUN ["apt-get","update","-y"]
+
 RUN apt-get install -y python3
 
 # When you pass commands to the container, what should interpret them
