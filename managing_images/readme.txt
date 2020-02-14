@@ -57,6 +57,9 @@ docker rm mongo
 #14 - Mongo Container will be gone from the list
 docker ps -a
 
+#15 - 
+docker rm 
+
 
 
 
